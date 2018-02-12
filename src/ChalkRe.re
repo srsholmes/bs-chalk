@@ -127,7 +127,7 @@ module Chalk = {
   let whiteBright = str => chalkWhiteBright(str);
   let underline = str => chalkUnderline(str);
   /* Backgrounds */
-  let bgBlack = str => chalkBgBlack;
+  let bgBlack = str => chalkBgBlack(str);
   let bgRed = str => chalkBgRed(str);
   let bgGreen = str => chalkBgGreen(str);
   let bgYellow = str => chalkBgYellow(str);
